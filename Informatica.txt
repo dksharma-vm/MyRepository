@@ -1,0 +1,93 @@
+4+ years of experience using databases such as Oracle, MS SQL Server
+1+ year of hands on experience with ETL/ELT using AWS DMS or Glue or Amazon Redshift Architecture
+1+ year of AWS Pipeline knowledge to develop ETL preferably using Alteryx for data movement to Redshift
+Strong knowledge on AWS environment and Service knowledge with S3 storage understanding
+Strong knowledge multiple cloud technologies including VPC, EC2, S3, Amazon API Gateway, DynamoDB, SimpleDB, and AWS Route 53
+Should understand nuances of moving data from RDBMS sources to Columnar DB (Redshift)
+Hands on experience in Data Warehouse (DW) and BI tools
+Project experience with AWS Data Lakes, Analytics services, and AWS Cloud migrations
+Experience with Databricks/Spark
+Data modeling skills a plus
+Working knowledge of AWS infrastructure and security configuration
+Apache Spark programming using Python would be preferred but not required
+
+
+---------diff between ETL and ELT-----------------------------------------
+1. Time - Load
+
+ETL: Uses staging area and system, extra time to load data
+ELT: All in one system, load only once
+
+2. Time - Transformation
+
+ETL: Need to wait, especially for big data sizes - as data grows, transformation time increases
+ELT: All in one system, speed is not dependent on data size
+
+3. Time - Maintenance
+
+ETL: High maintenance - choice of data to load and transform and must do it again if deleted or want to enhance the main data repository
+ELT: Low maintenance - all data is always available
+
+4. Implementation complexity
+
+ETL: At early stage, requires less space and result is clean
+ELT: Requires in-depth knowledge of tools and expert design of the main large repository
+
+5. Analysis & processing style
+
+ETL: Based on multiple scripts to create the views - deleting view means deleting data
+ELT: Creating ad hoc views - low cost for building and maintaining
+
+6. Data limitation or restriction in supply
+
+ETL: By presuming and choosing data a priori
+ELT: By HW (none) and data retention policy
+
+7. Data warehouse support
+
+ETL: Prevalent legacy model used for on-premises and relational, structured data
+ELT: Tailored to using in scalable cloud infrastructure to support structured, unstructured such big data sources
+
+8. Data lake support
+
+ETL: Not part of approach
+ELT: Enables use of lake with unstructured data supported
+
+9. Usability
+
+ETL: Fixed tables, Fixed timeline, Used mainly by IT
+ELT: Ad Hoc, Agility, Flexibility, Usable by everyone from developer to citizen integrator
+
+10. Cost-effective
+
+ETL: Not cost-effective for small and medium businesses
+ELT: Scalable and available to all business sizes using online SaaS solutions
+
+=============GitHub====================
+
+1. create central repo
+2. locate folder for gitbash
+--git init
+--git remote add origin "repository address"
+--git pull origin master
+--git add
+--git status
+--git commit -m "comments"
+--git branch branchname
+--git checkout branchname
+--
+--generate ssh ket and register to repository
+--git push
+
+reverse
+--git log
+--git reverse "first 8 char of commit"
+--git push
+
+================Alteryx===========
+alteryx designer, server,connect,promot and analytics gallery
+
+
+
+
+
